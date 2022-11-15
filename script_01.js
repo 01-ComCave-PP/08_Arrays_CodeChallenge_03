@@ -19,9 +19,6 @@ output(getSentence(["Ich","hätt","gern","die","Platt","von","dene","zwei","diwo
 output(getSentence(["Test", "test"], "P"))
 
 
-
-
-
 function getSentence(arr, b) {
     
     const GAP = " ";
@@ -41,12 +38,11 @@ function getSentence(arr, b) {
 
 }
 
-
 function changeLast(str, b) {
 
     let c = [".", "?", "!"];
 
-    switch (TRUE) {
+    switch (true) {
         case b == "S":
             return str + c[0];
         case b == "Q":
@@ -59,7 +55,6 @@ function changeLast(str, b) {
     }
     
 }
-
 
 function output(outputStr) {
         console.log(outputStr);
